@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 05: HTML Tables</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tables</h1>
+
+    <!-- Add a caption to the table -->
+    <table>
+        <caption>Company Contact Information</caption>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+    </table>
+
+    <!-- Example of merging columns using colspan -->
+    <h2>Using Colspan</h2>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+
+    <!-- Example of merging rows using rowspan -->
+    <h2>Using Rowspan</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+        </tr>
+        <tr>
+            <td>555-8745</td>
+        </tr>
+    </table>
+
+    <!-- Example of styling specific columns using colgroup -->
+    <h2>Styling Columns with Colgroup</h2>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+            <col style="background-color: #FFC0CB">
+        </colgroup>
+        <tr>
+            <th>Day</th>
+            <th>Event</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Meeting</td>
+            <td>Office</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Workshop</td>
+            <td>Conference Room</td>
+        </tr>
+    </table>
+</body>
+</html>
