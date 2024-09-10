@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Image Map Challenge</title>
+</head>
+<body>
+
+    <h1>HTML Image Map Challenge</h1>
+
+    <!-- Image with an image map -->
+    <img src="./images/workplace.png" alt="Workplace" usemap="#workmap">
+
+    <!-- Image map definition -->
+    <map name="workmap">
+        <!-- Rectangle clickable area (Computer) -->
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+
+        <!-- Rectangle clickable area (Phone) -->
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+
+        <!-- Circle clickable area (Coffee) -->
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+
+</body>
+</html>
