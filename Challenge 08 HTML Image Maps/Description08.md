@@ -1,4 +1,4 @@
-# HTML Challenge: Image Maps
+# Challenge 08: HTML Image Maps
 
 ## Objective
 Create an interactive image using an image map with clickable areas. The goal is to define areas on an image that perform different actions when clicked.
