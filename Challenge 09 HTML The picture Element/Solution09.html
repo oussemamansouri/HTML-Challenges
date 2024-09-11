@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Picture Element Example</title>
+</head>
+<body>
+    <h1>Responsive Banner Using the &lt;picture&gt; Element</h1>
+
+    <picture>
+        <!-- Image for devices with a max-width of 600px (mobile) -->
+        <source srcset="./images/mobile.png" media="(max-width: 600px)">
+        
+        <!-- Image for devices with a max-width of 1200px (tablet) -->
+        <source srcset="./images/tablet.png" media="(max-width: 1200px)">
+        
+        <!-- Default image for large screens (desktop) -->
+        <source srcset="./images/desktop.png">
+        
+        <!-- Fallback image for browsers that do not support the <picture> element -->
+        <img src="./images/fallback.png" alt="Responsive banner for different screen sizes">
+    </picture>
+
+    <p>This example demonstrates how to use the &lt;picture&gt; element to provide different images for mobile, tablet, and desktop devices.</p>
+</body>
+</html>
