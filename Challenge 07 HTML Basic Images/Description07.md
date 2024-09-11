@@ -1,4 +1,4 @@
-# HTML Challenge: Images
+# Challenge 07: HTML Basic Images
 
 ## Objective
 Create a webpage that displays an image using the `<img>` tag. This will include:
