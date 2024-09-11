@@ -1,4 +1,4 @@
-# HTML Challenge: The `<picture>` Element
+# Challenge 09: HTML The `<picture>` Element
 
 ## Objective
 The goal of this challenge is to use the HTML `<picture>` element to display different images based on the device or screen size, allowing for flexibility in image selection.
