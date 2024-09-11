@@ -1,4 +1,4 @@
-# HTML Challenge: Links
+# Challenge 06: HTML Links
 
 ## Objective
 Create a webpage with various types of HTML links using the `<a>` tag. This will include:
