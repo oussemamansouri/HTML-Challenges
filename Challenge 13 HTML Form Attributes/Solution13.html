@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Attributes Challenge Solution</title>
+</head>
+
+<body>
+    <h1>HTML Form Attributes Challenge</h1>
+
+    <!-- Task 1: The Action Attribute -->
+    <h2>Task 1: The Action Attribute</h2>
+    <form action="submit_form.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 2: The Target Attribute -->
+    <h2>Task 2: The Target Attribute</h2>
+    <form action="submit_form.php" target="_blank">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 3: The Method Attribute -->
+    <h2>Task 3: The Method Attribute</h2>
+    <form action="submit_form.php" method="post">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 4: The Autocomplete Attribute -->
+    <h2>Task 4: The Autocomplete Attribute</h2>
+    <form action="submit_form.php" autocomplete="on">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="useremail">Email:</label>
+        <input type="email" id="useremail" name="useremail">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 5: The Novalidate Attribute -->
+    <h2>Task 5: The Novalidate Attribute</h2>
+    <form action="submit_form.php" novalidate>
+        <label for="useremail">Email (Required):</label>
+        <input type="email" id="useremail" name="useremail" required>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
