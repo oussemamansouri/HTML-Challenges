@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Elements Challenge</title>
+</head>
+<body>
+
+    <h1>Form Submission</h1>
+
+    <form action="#" method="post">
+
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- Name Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Gender Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+        </fieldset>
+
+        <!-- Country Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="france">France</option>
+        </select><br><br>
+
+        <!-- Interests Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <!-- Programming Language Datalist -->
+        <label for="language">Preferred Programming Language:</label>
+        <input type="text" id="language" name="language" list="languages" placeholder="Choose a language">
+        <datalist id="languages">
+            <option value="JavaScript">
+            <option value="Python">
+            <option value="Java">
+            <option value="C++">
+        </datalist><br><br>
+
+        <!-- Additional Comments -->
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Form</button>
+
+    </form>
+
+</body>
+</html>
