@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout Elements Challenge</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        /* Main layout with flexbox */
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        /* Sidebar with float */
+        aside {
+            float: right;
+            width: 25%;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        /* Article section with grid layout */
+        section {
+            flex-grow: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        article {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            clear: both;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                grid-template-columns: 1fr;
+            }
+            aside {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Layout Elements Challenge</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <!-- Main content section with grid and sidebar -->
+        <section>
+            <article>
+                <h2>Article 1</h2>
+                <p>This is the content for article 1. It's displayed using a CSS grid layout.</p>
+            </article>
+            <article>
+                <h2>Article 2</h2>
+                <p>This is the content for article 2. It's displayed using a CSS grid layout.</p>
+            </article>
+        </section>
+
+        <!-- Sidebar with float -->
+        <aside>
+            <h2>Sidebar</h2>
+            <p>This sidebar contains additional links or information.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML Layout Challenge</p>
+    </footer>
+
+</body>
+</html>
