@@ -2,7 +2,7 @@
 
 In this challenge, you will practice using various HTML elements to format text. HTML offers several tags to style and emphasize text with specific meanings such as bold, italic, subscript, superscript, and more.
 
-### Instructions:
+## Instructions:
 1. Create a webpage that demonstrates the use of the following text formatting elements:
    - Bold text (`<b>` and `<strong>`)
    - Italic text (`<i>` and `<em>`)
@@ -13,5 +13,8 @@ In this challenge, you will practice using various HTML elements to format text.
 2. Provide examples for each element on your webpage.
 3. Add meaningful content that explains the purpose of each element and how it should be used.
 
-### Example:
+## Example:
 Your webpage should include examples such as bold text for important information, subscript for chemical formulas, and superscript for footnotes.
+
+## Final Result:
+![Final Result Image](../Result%20Images/FinalResultChallenge2.png)
