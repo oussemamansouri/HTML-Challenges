@@ -17,3 +17,6 @@ Create a webpage with various types of HTML links using the `<a>` tag. This will
 
 ## Bonus
 - Create an internal link (bookmark) within the page that jumps to a specific section.
+
+## Final Result:
+![Final Result Image](../Result%20Images/FinalResultChallenge6.png)
