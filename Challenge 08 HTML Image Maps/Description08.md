@@ -15,3 +15,6 @@ This example is adapted from the image map tutorial found at [W3Schools HTML Ima
 
 ## Bonus
 - Use the `poly` shape to create a more complex clickable area, such as for the garden.
+
+## Final Result:
+![Final Result Image](../Result%20Images/FinalResultChallenge8.png)
