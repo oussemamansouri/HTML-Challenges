@@ -15,3 +15,5 @@ Create a webpage that displays an image using the `<img>` tag. This will include
 ## Bonus
 - Display a second image and intentionally break the `src` attribute to show the alt text and the broken image icon.
 
+## Final Result:
+![Final Result Image](../Result%20Images/FinalResultChallenge7.png)
