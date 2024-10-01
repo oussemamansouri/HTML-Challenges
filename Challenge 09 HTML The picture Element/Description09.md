@@ -11,7 +11,14 @@ The goal of this challenge is to use the HTML `<picture>` element to display dif
 ## Example Scenario
 You will create a responsive image for a website banner. The website should display different versions of the banner based on the screen size: one for mobile devices, one for tablets, and another for desktop computers.
 
-This example is adapted from the HTML `<picture>` element tutorial found at [W3Schools HTML Picture Element](https://www.w3schools.com/html/html_picture.asp).
-
 ## Bonus
 - Experiment with using different image formats (e.g., WebP, PNG, JPEG) for better browser support.
+
+## Final Result:
+
+**For desktop**
+![Final Result Image 1](../Result%20Images/FinalResultChallenge9Part1.png)
+**For tablets**
+![Final Result Image 2](../Result%20Images/FinalResultChallenge9Part2.png)
+**For mobile**
+![Final Result Image 3](../Result%20Images/FinalResultChallenge9Part3.png)
