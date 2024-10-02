@@ -39,4 +39,7 @@ HTML allows lists to be nested, meaning you can place one list inside another to
 - Create a description list with terms and descriptions.
 - Implement nested lists to show a hierarchy of items.
 
+## Final Result:
+![Final Result Image](../Result%20Images/FinalResultChallenge10.png)
+
 Upon completing this challenge, you will have a solid understanding of how to use HTML lists to organize and present content effectively.
