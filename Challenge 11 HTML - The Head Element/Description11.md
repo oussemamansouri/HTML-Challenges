@@ -64,4 +64,7 @@ A favicon is a small image that appears next to the page title in the browser ta
 - Use the `<base>` element to set a base URL for relative links.
 - Add a favicon to enhance the user experience.
 
+## Final Result:
+![Fianl Result Image](../Result%20Images/FinalResultChallenge11.png)
+
 Upon completing this challenge, you will have a solid understanding of the importance and use of the `<head>` element and its child elements in an HTML document.
