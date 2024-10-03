@@ -55,3 +55,7 @@ You will explore the following form attributes:
 - `method`: Specifies the HTTP method to use when submitting the form data.
 - `autocomplete`: Controls autocomplete behavior in the browser.
 - `novalidate`: Disables form validation during submission.
+
+## Final Result:
+
+![Final Result Image](../Result%20Images/FinalResultChallenge13.png)
