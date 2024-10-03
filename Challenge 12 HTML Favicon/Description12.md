@@ -31,5 +31,8 @@ To add a favicon to your website, follow these steps:
 
 The favicon will be displayed to the left of the page title in the browser tab.
 
+## Fianl Result:
+![Final Result Image](../Result%20Images/FinalResultChallenge12.png)
+
 By completing this challenge, you will enhance your website's branding and usability by ensuring your site is easily recognizable in browser tabs.
 
