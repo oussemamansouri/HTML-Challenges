@@ -33,4 +33,6 @@ In this challenge, you will embed a YouTube video into your web page using an `<
 
 The webpage should display a YouTube video that autoplays on load (muted), loops forever, and does not display player controls. The video size should be 560x315 pixels.
 
+![Example Image](../Result%20Images/FinalResultChallenge18.png)
+
 Good luck and have fun embedding videos from YouTube!
