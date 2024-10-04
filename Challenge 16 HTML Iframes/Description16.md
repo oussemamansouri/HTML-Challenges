@@ -31,4 +31,6 @@ In this challenge, you will create a web page that embeds another webpage using 
 
 The webpage should display an iframe that shows the embedded content, with no borders. When clicking on the link, a new webpage should load inside the iframe.
 
+![Final Result Image](../Result%20Images/FinalResultChallenge16.png)
+
 Good luck and happy coding!
