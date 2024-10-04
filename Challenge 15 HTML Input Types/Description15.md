@@ -86,4 +86,7 @@ In this challenge, you will create a form that includes all the possible HTML `<
 
 The form should allow users to input a variety of data types, including text, email, date, time, color, number, and more. It should also allow for file uploads and include interactive elements like radio buttons and checkboxes.
 
+![Final Result Image 1](../Result%20Images/FinalResultChallenge15Top.png)
+![Final Result Image 2](../Result%20Images/FinalResultChallenge15Bottom.png)
+
 Good luck and happy coding!
