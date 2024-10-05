@@ -42,6 +42,10 @@ In this challenge, you will create a basic web page layout using **HTML5 Semanti
 
 - Add a **responsive design** so that the layout adapts to smaller screen sizes.
 
+## Final Result:
+
+![Final Result Image](../Result%20Images/FinalResultChallenge19.png)
+
 ---
 
 This challenge is perfect for those practicing and developing their **CSS layout skills**!
