@@ -34,6 +34,10 @@ In this challenge, you will learn how to add emojis, special symbols, and icons 
 - Add appropriate HTML entity codes for symbols and emojis.
 - Use external CSS links to integrate icon libraries.
 
+## Final Result:
+
+![Final Result Image](../Result%20Images/FinalResultChallenge20.png)
+
 ---
 
 This challenge will help you practice using **HTML symbols, emojis, and icon libraries**.
