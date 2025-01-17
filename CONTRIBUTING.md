@@ -6,8 +6,8 @@ We welcome contributions to the HTML Challenges project! This guide outlines the
 
 Before making a contribution, please review the following:
 
-* **Project Overview:** (ReadMe File)[https://github.com/oussemamansouri/HTML-Challenges/blob/main/README.md]
-* **Challenges:** [https://github.com/oussemamansouri/HTML-Challenges/blob/main/README.md](https://github.com/oussemamansouri/HTML-Challenges)
+* **Project Overview:** [ReadMe File](https://github.com/oussemamansouri/HTML-Challenges/blob/main/README.md)
+* **Challenges:** [HTML Challenges](https://github.com/oussemamansouri/HTML-Challenges)
 
 ## How to Contribute
 
